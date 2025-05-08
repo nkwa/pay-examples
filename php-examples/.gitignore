@@ -1,0 +1,54 @@
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache and logs
+*.log
+*.cache
+.php_cs.cache
+.phpunit.result.cache
+
+# Application specific
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Node modules (for Laravel/Symfony mix)
+/node_modules/
+/public/css/
+/public/js/
+/public/mix-manifest.json
+
+# Testing
+.phpunit.cache/
+.phpunit.result.cache
+coverage.xml
+*.coverage
+coverage/
+
+/symfony-example/vendor/
+/laravel-example/vendor/
+# Ignore all files in the vendor directory
