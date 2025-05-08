@@ -28,6 +28,12 @@ The examples showcase best practices for integrating Nkwa Pay's payment processi
 - FastAPI implementation
 - Flask implementation
 
+## TODO
+
+### Java
+- Spring Boot implementation (planned)
+- Quarkus implementation (planned)
+
 ## Prerequisites
 
 Before running any example, make sure you have:
