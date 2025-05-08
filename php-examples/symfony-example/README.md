@@ -27,7 +27,7 @@ The following endpoints are available:
   ```json
   {
     "amount": 1000,
-    "phoneNumber": "+237600000000"
+    "phoneNumber": "237600000000"
   }
   ```
 
@@ -35,7 +35,7 @@ The following endpoints are available:
   ```json
   {
     "amount": 1000,
-    "phoneNumber": "+237600000000"
+    "phoneNumber": "237600000000"
   }
   ```
 
