@@ -42,7 +42,7 @@ Both implementations provide the following endpoints:
 ```json
 {
     "amount": 1000,
-    "phoneNumber": "+237600000000",
+    "phoneNumber": "237600000000",
     "currency": "XAF",
     "description": "Test payment"
 }
@@ -52,7 +52,7 @@ Both implementations provide the following endpoints:
 ```json
 {
     "amount": 1000,
-    "phoneNumber": "+237600000000",
+    "phoneNumber": "237600000000",
     "currency": "XAF",
     "description": "Test disbursement"
 }

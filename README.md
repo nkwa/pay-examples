@@ -165,7 +165,7 @@ curl -X POST http://localhost:<PORT>/disburse-payment \
   -H "Content-Type: application/json" \
   -d '{
     "amount": 1000,
-    "phoneNumber": "+237600000000"
+    "phoneNumber": "237600000000"
   }'
 ```
 
