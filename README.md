@@ -13,6 +13,11 @@ The examples showcase best practices for integrating Nkwa Pay's payment processi
 - Echo framework implementation
 - Gin framework implementation
 
+### Java
+
+- Spring Boot implementation
+- Quarkus implementation
+
 ### JavaScript/TypeScript
 
 - Express.js implementation
@@ -28,12 +33,6 @@ The examples showcase best practices for integrating Nkwa Pay's payment processi
 - FastAPI implementation
 - Flask implementation
 
-## TODO
-
-### Java
-- Spring Boot implementation (planned)
-- Quarkus implementation (planned)
-
 ## Prerequisites
 
 Before running any example, make sure you have:
@@ -44,6 +43,7 @@ Before running any example, make sure you have:
   - Node.js 14+ for JavaScript examples
   - PHP 8.2+ for PHP examples
   - Go 1.20+ for Go examples
+  - Java 17+ and Maven for Java examples
 
 ## Running the Examples
 
@@ -149,6 +149,30 @@ go run main.go
 
 Server runs at <http://localhost:8080>
 
+### Java Examples
+
+#### Spring Boot Example
+
+```bash
+cd java-examples/spring-boot-
+mvn wrapper:wrapper
+export PAY_API_KEY_AUTH=your_api_key_here && ./mvnw spring-boot:run
+```
+
+Server runs at <http://localhost:8083>
+
+#### Quarkus Example
+
+> TODO: Complete the Quarkus example implementation
+
+```bash
+cd java-examples/quarkus-example
+mvn wrapper:wrapper
+./mvnw quarkus:dev -DPAY_API_KEY_AUTH=your_api_key_here
+```
+
+Server runs at <http://localhost:8084>
+
 ## Testing the API
 
 Once any example is running, you can test it using the following endpoints:
@@ -191,6 +215,8 @@ Replace `<PORT>` with the appropriate port number for your chosen example:
 - Symfony: 8000
 - Echo: 8081
 - Gin: 8080
+- Spring Boot: 8083
+- Quarkus: 8084
 
 ## Contributing
 
